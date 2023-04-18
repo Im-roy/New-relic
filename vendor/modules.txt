@@ -52,6 +52,10 @@ github.com/newrelic/go-agent/v3/internal/logger
 github.com/newrelic/go-agent/v3/internal/sysinfo
 github.com/newrelic/go-agent/v3/internal/utilization
 github.com/newrelic/go-agent/v3/newrelic
+github.com/newrelic/go-agent/v3/newrelic/sqlparse
+# github.com/newrelic/go-agent/v3/integrations/nrpq v1.1.1
+## explicit; go 1.11
+github.com/newrelic/go-agent/v3/integrations/nrpq
 # golang.org/x/crypto v0.6.0
 ## explicit; go 1.17
 golang.org/x/crypto/pbkdf2
