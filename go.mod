@@ -8,7 +8,13 @@ require (
 	gorm.io/gorm v1.25.0
 )
 
-require github.com/lib/pq v1.1.1 // indirect
+require (
+	github.com/klauspost/compress v1.15.9 // indirect
+	github.com/lib/pq v1.1.1 // indirect
+	github.com/newrelic/go-agent v3.21.0+incompatible // indirect
+	github.com/pierrec/lz4/v4 v4.1.15 // indirect
+	github.com/segmentio/kafka-go v0.4.39 // indirect
+)
 
 require (
 	github.com/golang/protobuf v1.5.2 // indirect

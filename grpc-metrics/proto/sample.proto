@@ -1,0 +1,11 @@
+syntax = "proto3";
+package calculator;
+
+message CalcInput {
+    int32 x = 1;
+    int32 y = 2;
+}
+
+message CalcOutput {
+    int32 sum = 1;
+}
